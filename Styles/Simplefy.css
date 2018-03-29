@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.navbar {
+  font-family: cursive;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #C2C4DE !important;
+}
+
+.nav-settings {
+  margin: 10px;
+}
+
+.nav-settings ul {
+  list-style: none;
+}
+
+.nav-settings ul li {
+  display: inline-block;
+  background-color: none;
+}
+
+.menu-left {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+.menu-right {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.menu-btn {
+  background-color: white;
+  border: 1px solid lightblue;
+  border-radius: 10%;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  max-width: 150px;
+  height: 40px;
+}
+
+
+#editor {
+  height: 80vh;
+  width: 100vw;
+}
